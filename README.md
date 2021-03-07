@@ -27,6 +27,16 @@ Simple Write Ups for tryhackme machines. Please consider as my notes and not a c
     <tr>
         <td>
             <span>
+                <a href="https://tryhackme.com/room/investigatingwindows">Investigating Windows</a>
+            </span>
+        </td>
+        <td>
+            <a href="./InvestigatingWindows">WriteUp</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <span>
                 <a href="https://tryhackme.com/room/nax">Nax</a>
             </span>
         </td>

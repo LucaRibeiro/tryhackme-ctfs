@@ -13,18 +13,18 @@ Simple Write Ups for tryhackme machines. Please consider as my notes and not a c
         <td>
             <a href="./dogcat">WriteUp</a>
         </td>
-    <tr>
     </tr>
+    <tr>
         <td>
             <span>
-                <a href="https://tryhackme.com/room/investigatingwindows">Investigating Windows</a>
+                <a href="https://tryhackme.com/room/introtopython">Intro To Python</a>
             </span>
         </td>
         <td>
-            <a href="./InvestigatingWindows">WriteUp</a>
+            <a href="./IntroToPython">WriteUp</a>
         </td>
-    <tr>
     </tr>
+    <tr>
         <td>
             <span>
                 <a href="https://tryhackme.com/room/nax">Nax</a>

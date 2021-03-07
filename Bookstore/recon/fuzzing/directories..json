@@ -1,0 +1,142 @@
+{
+    "commandline": "C:\\Program Files\\Go\\bin\\ffuf.exe -u http://10.10.86.162/FUZZ -w D:\\Pentest\\SecLists\\Discovery\\Web-Content\\raft-large-directories.txt -o .\\recon\\directories",
+    "time": "2021-02-02T22:24:10-03:00",
+    "results": [
+        {
+            "input": {
+                "FUZZ": "images"
+            },
+            "position": 2,
+            "status": 301,
+            "length": 313,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "http://10.10.86.162/images/",
+            "resultfile": "",
+            "url": "http://10.10.86.162/images",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": "assets"
+            },
+            "position": 84,
+            "status": 301,
+            "length": 313,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "http://10.10.86.162/assets/",
+            "resultfile": "",
+            "url": "http://10.10.86.162/assets",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": "javascript"
+            },
+            "position": 139,
+            "status": 301,
+            "length": 317,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "http://10.10.86.162/javascript/",
+            "resultfile": "",
+            "url": "http://10.10.86.162/javascript",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": "server-status"
+            },
+            "position": 4227,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/server-status",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ""
+            },
+            "position": 4255,
+            "status": 200,
+            "length": 6452,
+            "words": 470,
+            "lines": 162,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ""
+            },
+            "position": 30014,
+            "status": 200,
+            "length": 6452,
+            "words": 470,
+            "lines": 162,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/",
+            "host": "10.10.86.162"
+        }
+    ],
+    "config": {
+        "autocalibration": false,
+        "autocalibration_strings": [],
+        "colors": false,
+        "cmdline": "C:\\Program Files\\Go\\bin\\ffuf.exe -u http://10.10.86.162/FUZZ -w D:\\Pentest\\SecLists\\Discovery\\Web-Content\\raft-large-directories.txt -o .\\recon\\directories",
+        "configfile": "",
+        "postdata": "",
+        "delay": {
+            "value": "0.00"
+        },
+        "dirsearch_compatibility": false,
+        "extensions": [],
+        "filters": {},
+        "follow_redirects": false,
+        "headers": {},
+        "ignorebody": false,
+        "ignore_wordlist_comments": false,
+        "inputmode": "clusterbomb",
+        "cmd_inputnum": 100,
+        "inputproviders": [
+            {
+                "name": "wordlist",
+                "keyword": "FUZZ",
+                "value": "D:\\Pentest\\SecLists\\Discovery\\Web-Content\\raft-large-directories.txt"
+            }
+        ],
+        "matchers": {
+            "status": {
+                "value": "200,204,301,302,307,401,403"
+            }
+        },
+        "maxtime": 0,
+        "maxtime_job": 0,
+        "method": "GET",
+        "outputdirectory": "",
+        "outputfile": ".\\recon\\directories",
+        "outputformat": "json",
+        "OutputCreateEmptyFile": false,
+        "proxyurl": "",
+        "quiet": false,
+        "rate": 0,
+        "recursion": false,
+        "recursion_depth": 0,
+        "replayproxyurl": "",
+        "stop_403": false,
+        "stop_all": false,
+        "stop_errors": false,
+        "threads": 40,
+        "timeout": 10,
+        "url": "http://10.10.86.162/FUZZ",
+        "verbose": false
+    }
+}

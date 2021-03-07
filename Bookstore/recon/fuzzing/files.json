@@ -1,0 +1,310 @@
+{
+    "commandline": "C:\\Program Files\\Go\\bin\\ffuf.exe -u http://10.10.86.162/FUZZ -w D:\\Pentest\\SecLists\\Discovery\\Web-Content\\raft-large-files.txt -o .\\recon\\files",
+    "time": "2021-02-02T22:20:47-03:00",
+    "results": [
+        {
+            "input": {
+                "FUZZ": "LICENSE.txt"
+            },
+            "position": 6,
+            "status": 200,
+            "length": 17130,
+            "words": 2800,
+            "lines": 63,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/LICENSE.txt",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": "index.html"
+            },
+            "position": 62,
+            "status": 200,
+            "length": 6452,
+            "words": 470,
+            "lines": 162,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/index.html",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": "login.html"
+            },
+            "position": 102,
+            "status": 200,
+            "length": 5325,
+            "words": 127,
+            "lines": 106,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/login.html",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": "favicon.ico"
+            },
+            "position": 103,
+            "status": 200,
+            "length": 15406,
+            "words": 11,
+            "lines": 1,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/favicon.ico",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".htaccess"
+            },
+            "position": 150,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.htaccess",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": "."
+            },
+            "position": 372,
+            "status": 200,
+            "length": 6452,
+            "words": 470,
+            "lines": 162,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".html"
+            },
+            "position": 530,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.html",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".htpasswd"
+            },
+            "position": 1557,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.htpasswd",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".htm"
+            },
+            "position": 1823,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.htm",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".htpasswds"
+            },
+            "position": 2093,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.htpasswds",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": "books.html"
+            },
+            "position": 3165,
+            "status": 200,
+            "length": 2940,
+            "words": 115,
+            "lines": 90,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/books.html",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".htgroup"
+            },
+            "position": 4618,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.htgroup",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".htaccess.bak"
+            },
+            "position": 7072,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.htaccess.bak",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".htuser"
+            },
+            "position": 8681,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.htuser",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".ht"
+            },
+            "position": 11452,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.ht",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".htc"
+            },
+            "position": 11453,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.htc",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".htaccess.old"
+            },
+            "position": 17174,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.htaccess.old",
+            "host": "10.10.86.162"
+        },
+        {
+            "input": {
+                "FUZZ": ".htacess"
+            },
+            "position": 17175,
+            "status": 403,
+            "length": 277,
+            "words": 20,
+            "lines": 10,
+            "redirectlocation": "",
+            "resultfile": "",
+            "url": "http://10.10.86.162/.htacess",
+            "host": "10.10.86.162"
+        }
+    ],
+    "config": {
+        "autocalibration": false,
+        "autocalibration_strings": [],
+        "colors": false,
+        "cmdline": "C:\\Program Files\\Go\\bin\\ffuf.exe -u http://10.10.86.162/FUZZ -w D:\\Pentest\\SecLists\\Discovery\\Web-Content\\raft-large-files.txt -o .\\recon\\files",
+        "configfile": "",
+        "postdata": "",
+        "delay": {
+            "value": "0.00"
+        },
+        "dirsearch_compatibility": false,
+        "extensions": [],
+        "filters": {},
+        "follow_redirects": false,
+        "headers": {},
+        "ignorebody": false,
+        "ignore_wordlist_comments": false,
+        "inputmode": "clusterbomb",
+        "cmd_inputnum": 100,
+        "inputproviders": [
+            {
+                "name": "wordlist",
+                "keyword": "FUZZ",
+                "value": "D:\\Pentest\\SecLists\\Discovery\\Web-Content\\raft-large-files.txt"
+            }
+        ],
+        "matchers": {
+            "status": {
+                "value": "200,204,301,302,307,401,403"
+            }
+        },
+        "maxtime": 0,
+        "maxtime_job": 0,
+        "method": "GET",
+        "outputdirectory": "",
+        "outputfile": ".\\recon\\files",
+        "outputformat": "json",
+        "OutputCreateEmptyFile": false,
+        "proxyurl": "",
+        "quiet": false,
+        "rate": 0,
+        "recursion": false,
+        "recursion_depth": 0,
+        "replayproxyurl": "",
+        "stop_403": false,
+        "stop_all": false,
+        "stop_errors": false,
+        "threads": 40,
+        "timeout": 10,
+        "url": "http://10.10.86.162/FUZZ",
+        "verbose": false
+    }
+}

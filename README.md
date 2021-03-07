@@ -36,16 +36,6 @@
     <tr>
         <td>
             <span>
-                <a href="https://tryhackme.com/room/picklerick">Pickle Rick</a>
-            </span>
-        </td>
-        <td>
-            <a href="./PickleRick">WriteUp</a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <span>
                 <a href="https://tryhackme.com/room/rrootme">Root Me</a>
             </span>
         </td>

@@ -1,6 +1,7 @@
 # TryHackMe - WriteUps
+Simple Write Ups for tryhackme machines. Please consider as my notes and not a complete guide to resolve machines. Bettest Write Ups in my [site](https://lucaribeiro.me)
 
-## List Write Ups
+## Write Ups - List 
 
 <table>
     <tr>

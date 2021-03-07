@@ -1,7 +1,5 @@
 ## Nax
 
-### Recon
-[Recon](./recon)
+### [Recon](./recon)
 
-### Exploration
-[Exploration](./exploration)
+### [Exploration](./exploration)

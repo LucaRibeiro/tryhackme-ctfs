@@ -20,3 +20,6 @@ http://10.10.10.5/PI3T.PNg
 # Image
 The image is a Piet image with credentials
 ``nagiosadmin:n3p3UQ&9BjLp4$7uhWdY``
+
+# Exploit then
+[Exploration](../exploration)

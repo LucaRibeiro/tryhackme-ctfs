@@ -2,11 +2,8 @@
 In Metasploit use exploit to RCE in Nagios - CVE-2019-15949	
 ``exploit/linux/http/nagios_xi_authenticated_rce    2019-07-29  Nagios XI Authenticated Remote Command``
 
-
 # User Flag
 cat /home/galand/user.txt
-``THM{84b17add1d72a9f2e99c33bc568ae0f1}``
 
 # Root Flag
 cat /root/root.txt
-``THM{c89b2e39c83067503a6508b21ed6e962}``

@@ -13,7 +13,7 @@
             <a href="./dogcat">WriteUp</a>
         </td>
     <tr>
-    <tr>
+    </tr>
         <td>
             <span>
                 <a href="https://tryhackme.com/room/investigatingwindows">Investigating Windows</a>
@@ -23,7 +23,7 @@
             <a href="./InvestigatingWindows">WriteUp</a>
         </td>
     <tr>
-    <tr>
+    </tr>
         <td>
             <span>
                 <a href="https://tryhackme.com/room/nax">Nax</a>
@@ -32,7 +32,7 @@
         <td>
             <a href="./Nax">WriteUp</a>
         </td>
-    <tr>
+    </tr>
     <tr>
         <td>
             <span>
@@ -42,7 +42,7 @@
         <td>
             <a href="./PickleRick">WriteUp</a>
         </td>
-    <tr>
+    </tr>
     <tr>
         <td>
             <span>
@@ -52,5 +52,5 @@
         <td>
             <a href="./RootMe">WriteUp</a>
         </td>
-    <tr>
+    </tr>
 </table>

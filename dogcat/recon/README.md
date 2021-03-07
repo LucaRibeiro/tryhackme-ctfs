@@ -8,4 +8,4 @@ Apache/2.4.38 (Debian)
 [Fuzzing output](./urls)
 
 ## LFI
-Detected LFI, go to [exploration](../exploration/LocalFileInclusion.md).
+Detected LFI, go to [exploration](../exploration).

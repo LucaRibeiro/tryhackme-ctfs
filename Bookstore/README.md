@@ -7,7 +7,7 @@
 http://<IP>:5000/api/v1/resources/books 
 
 # Payload
-http://<IP>:5000/api/v1/resources/books?show=.bash_history
+http://*IP*:5000/api/v1/resources/books?show=.bash_history
 ```bash
 cd /home/sid 
 whoami 

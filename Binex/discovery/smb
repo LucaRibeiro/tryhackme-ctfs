@@ -1,0 +1,161 @@
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Sun Jan 24 20:33:58 2021
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.10.186.237
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ ===================================================== 
+|    Enumerating Workgroup/Domain on 10.10.186.237    |
+ ===================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ ============================================= 
+|    Nbtstat Information for 10.10.186.237    |
+ ============================================= 
+Looking up status of 10.10.186.237
+	THM_EXPLOIT     <00> -         B <ACTIVE>  Workstation Service
+	THM_EXPLOIT     <03> -         B <ACTIVE>  Messenger Service
+	THM_EXPLOIT     <20> -         B <ACTIVE>  File Server Service
+	..__MSBROWSE__. <01> - <GROUP> B <ACTIVE>  Master Browser
+	WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	WORKGROUP       <1d> -         B <ACTIVE>  Master Browser
+	WORKGROUP       <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+
+	MAC Address = 00-00-00-00-00-00
+
+ ====================================== 
+|    Session Check on 10.10.186.237    |
+ ====================================== 
+[+] Server 10.10.186.237 allows sessions using username '', password ''
+
+ ============================================ 
+|    Getting domain SID for 10.10.186.237    |
+ ============================================ 
+Domain Name: WORKGROUP
+Domain Sid: (NULL SID)
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ======================================= 
+|    OS information on 10.10.186.237    |
+ ======================================= 
+[+] Got OS info for 10.10.186.237 from smbclient: 
+[+] Got OS info for 10.10.186.237 from srvinfo:
+	THM_EXPLOIT    Wk Sv PrQ Unx NT SNT THM_exploit server (Samba, Ubuntu)
+	platform_id     :	500
+	os version      :	6.1
+	server type     :	0x809a03
+
+ ============================== 
+|    Users on 10.10.186.237    |
+ ============================== 
+
+
+ ========================================== 
+|    Share Enumeration on 10.10.186.237    |
+ ========================================== 
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	print$          Disk      Printer Drivers
+	IPC$            IPC       IPC Service (THM_exploit server (Samba, Ubuntu))
+SMB1 disabled -- no workgroup available
+
+[+] Attempting to map shares on 10.10.186.237
+//10.10.186.237/print$	Mapping: DENIED, Listing: N/A
+//10.10.186.237/IPC$	[E] Can't understand response:
+NT_STATUS_OBJECT_NAME_NOT_FOUND listing \*
+
+ ===================================================== 
+|    Password Policy Information for 10.10.186.237    |
+ ===================================================== 
+
+
+[+] Attaching to 10.10.186.237 using a NULL share
+
+[+] Trying protocol 139/SMB...
+
+[+] Found domain(s):
+
+	[+] THM_EXPLOIT
+	[+] Builtin
+
+[+] Password Info for Domain: THM_EXPLOIT
+
+	[+] Minimum password length: 5
+	[+] Password history length: None
+	[+] Maximum password age: 37 days 6 hours 21 minutes 
+	[+] Password Complexity Flags: 000000
+
+		[+] Domain Refuse Password Change: 0
+		[+] Domain Password Store Cleartext: 0
+		[+] Domain Password Lockout Admins: 0
+		[+] Domain Password No Clear Change: 0
+		[+] Domain Password No Anon Change: 0
+		[+] Domain Password Complex: 0
+
+	[+] Minimum password age: None
+	[+] Reset Account Lockout Counter: 30 minutes 
+	[+] Locked Account Duration: 30 minutes 
+	[+] Account Lockout Threshold: None
+	[+] Forced Log off Time: 37 days 6 hours 21 minutes 
+
+
+[+] Retieved partial password policy with rpcclient:
+
+Password Complexity: Disabled
+Minimum Password Length: 5
+
+
+ =============================== 
+|    Groups on 10.10.186.237    |
+ =============================== 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ======================================================================== 
+|    Users on 10.10.186.237 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ======================================================================== 
+[I] Found new SID: S-1-22-1
+[I] Found new SID: S-1-5-21-2007993849-1719925537-2372789573
+[I] Found new SID: S-1-5-32
+[+] Enumerating users using SID S-1-5-32 and logon username '', password ''
+S-1-5-32-544 BUILTIN\Administrators (Local Group)
+S-1-5-32-545 BUILTIN\Users (Local Group)
+S-1-5-32-546 BUILTIN\Guests (Local Group)
+S-1-5-32-547 BUILTIN\Power Users (Local Group)
+S-1-5-32-548 BUILTIN\Account Operators (Local Group)
+S-1-5-32-549 BUILTIN\Server Operators (Local Group)
+S-1-5-32-550 BUILTIN\Print Operators (Local Group)
+[+] Enumerating users using SID S-1-5-21-2007993849-1719925537-2372789573 and logon username '', password ''
+S-1-5-21-2007993849-1719925537-2372789573-501 THM_EXPLOIT\nobody (Local User)
+S-1-5-21-2007993849-1719925537-2372789573-513 THM_EXPLOIT\None (Domain Group)
+[+] Enumerating users using SID S-1-22-1 and logon username '', password ''
+S-1-22-1-1000 Unix User\kel (Local User)
+S-1-22-1-1001 Unix User\des (Local User)
+S-1-22-1-1002 Unix User\tryhackme (Local User)
+S-1-22-1-1003 Unix User\noentry (Local User)
+
+ ============================================== 
+|    Getting printer info for 10.10.186.237    |
+ ============================================== 
+No printers returned.
+
+
+enum4linux complete on Sun Jan 24 20:56:58 2021
+

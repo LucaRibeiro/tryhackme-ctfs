@@ -1,6 +1,6 @@
 import base64
 
-file = open("D:\CTF\TryHackMe\IntroToPython\encodedflag.txt","r")
+file = open("encodedflag.txt","r")
 text = file.read()
 
 for i in range(5):

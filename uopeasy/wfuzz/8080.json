@@ -1,0 +1,86 @@
+[
+    {
+        "chars": 213,
+        "code": 403,
+        "payload": ".hta",
+        "lines": 9,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache",
+        "url": "http://10.10.113.36:8080/.hta",
+        "words": 24
+    },
+    {
+        "chars": 218,
+        "code": 403,
+        "payload": ".htaccess",
+        "lines": 9,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache",
+        "url": "http://10.10.113.36:8080/.htaccess",
+        "words": 24
+    },
+    {
+        "chars": 218,
+        "code": 403,
+        "payload": ".htpasswd",
+        "lines": 9,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache",
+        "url": "http://10.10.113.36:8080/.htpasswd",
+        "words": 24
+    },
+    {
+        "chars": 1129,
+        "code": 200,
+        "payload": "favicon.ico",
+        "lines": 0,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache",
+        "url": "http://10.10.113.36:8080/favicon.ico",
+        "words": 16
+    },
+    {
+        "chars": 237,
+        "code": 301,
+        "payload": "img",
+        "lines": 7,
+        "location": "http://10.10.113.36:8080/img/",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache",
+        "url": "http://10.10.113.36:8080/img",
+        "words": 20
+    },
+    {
+        "chars": 46,
+        "code": 200,
+        "payload": "index.html",
+        "lines": 1,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache",
+        "url": "http://10.10.113.36:8080/index.html",
+        "words": 3
+    },
+    {
+        "chars": 243,
+        "code": 301,
+        "payload": "wordpress",
+        "lines": 7,
+        "location": "http://10.10.113.36:8080/wordpress/",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache",
+        "url": "http://10.10.113.36:8080/wordpress",
+        "words": 20
+    }
+]

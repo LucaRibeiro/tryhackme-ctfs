@@ -1,0 +1,86 @@
+[
+    {
+        "chars": 283,
+        "code": 403,
+        "payload": ".hta",
+        "lines": 10,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.7 (Ubuntu)",
+        "url": "http://10.10.113.36/.hta",
+        "words": 30
+    },
+    {
+        "chars": 288,
+        "code": 403,
+        "payload": ".htaccess",
+        "lines": 10,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.7 (Ubuntu)",
+        "url": "http://10.10.113.36/.htaccess",
+        "words": 30
+    },
+    {
+        "chars": 288,
+        "code": 403,
+        "payload": ".htpasswd",
+        "lines": 10,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.7 (Ubuntu)",
+        "url": "http://10.10.113.36/.htpasswd",
+        "words": 30
+    },
+    {
+        "chars": 47,
+        "code": 200,
+        "payload": "index.html",
+        "lines": 1,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.7 (Ubuntu)",
+        "url": "http://10.10.113.36/index.html",
+        "words": 2
+    },
+    {
+        "chars": 316,
+        "code": 301,
+        "payload": "javascript",
+        "lines": 9,
+        "location": "http://10.10.113.36/javascript/",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.7 (Ubuntu)",
+        "url": "http://10.10.113.36/javascript",
+        "words": 28
+    },
+    {
+        "chars": 316,
+        "code": 301,
+        "payload": "phpmyadmin",
+        "lines": 9,
+        "location": "http://10.10.113.36/phpmyadmin/",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.7 (Ubuntu)",
+        "url": "http://10.10.113.36/phpmyadmin",
+        "words": 28
+    },
+    {
+        "chars": 292,
+        "code": 403,
+        "payload": "server-status",
+        "lines": 10,
+        "location": "",
+        "method": "GET",
+        "post_data": [],
+        "server": "Apache/2.4.7 (Ubuntu)",
+        "url": "http://10.10.113.36/server-status",
+        "words": 30
+    }
+]
